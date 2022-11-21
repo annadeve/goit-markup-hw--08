@@ -132,8 +132,10 @@
 }
 
 .checkbox-area {
-  @extend %centred;
+  display: flex;
+  flex-direction: row;
   align-self: center;
+  flex-wrap: wrap;
 }
 
 .check-text {

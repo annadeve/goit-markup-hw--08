@@ -35,7 +35,7 @@ img {
   width: 100%;
 }
 
-.img-section, .icon-logo, .client-link:hover, .client-link:focus, .client-link, .clients-ul, .social-link, .team-section-ul, .img-ul, .features__ul, .check-text, .checkbox-area, .modal-close, .container {
+.img-section, .icon-logo, .client-link:hover, .client-link:focus, .client-link, .clients-ul, .social-link, .team-section-ul, .img-ul, .features__ul, .check-text, .modal-close, .container {
   display: flex;
   align-items: center;
 }
@@ -285,7 +285,10 @@ p {
 }
 
 .checkbox-area {
+  display: flex;
+  flex-direction: row;
   align-self: center;
+  flex-wrap: wrap;
 }
 
 .check-text {
