@@ -1,0 +1,39 @@
+.a-img-portfolio > h3 {
+  @include font(18px, 2, 700, 0.06em);
+  color: #212121;
+}
+
+.a-img-portfolio > p {
+  @include font(16px, 1.87, 400, 0.03em);
+  color: #757575;
+}
+
+.img-items > h2 {
+  padding-bottom: 50px;
+}
+
+.img-ul {
+  justify-content: center;
+  @extend %centred;
+  flex-direction: row;
+  gap: 30px;
+  padding-bottom: 94px;
+  & > li {
+    position: relative;
+  }
+}
+
+.label {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 27px;
+  font-family: "Roboto";
+  @include font(14px, 1.14, 700, 0.03em);
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  height: 70px;
+  width: 370px;
+}
