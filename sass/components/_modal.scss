@@ -9,7 +9,10 @@
 }
 
 .modal {
-  width: 528px;
+  width: 450px;
+  @media screen and (min-width: 1200px) {
+    width: 528px;
+  }
   min-height: 581px;
   background-color: #fff;
   position: absolute;
@@ -131,7 +134,10 @@
 }
 
 .check-text {
-  @include font(14px, 1.14, 400, 0.03em);
+  @include font(12px, 1.14, 400, 0.03em);
+  @media screen and (min-width: 1200px) {
+    @include font(14px, 1.14, 400, 0.03em);
+  }
   color: #757575;
   margin-bottom: 30px;
   @extend %centred;
@@ -157,7 +163,10 @@
 }
 
 .check-box-a {
-  @include font(14px, 1.14, 400, 0.03em);
+  @include font(12px, 1.14, 400, 0.03em);
+  @media screen and (min-width: 1200px) {
+    @include font(14px, 1.14, 400, 0.03em);
+  }
   color: var(--accent-color);
   margin-left: 7px;
   margin-bottom: 30px;
