@@ -28,7 +28,7 @@
   border-radius: 2px;
   width: 50px;
   height: 4px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-top: 46px;
   }
 }
@@ -41,7 +41,7 @@
   border-radius: 2px;
   width: 72px;
   height: 4px;
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 768px) {
     margin-top: 46px;
   }
 }
@@ -116,6 +116,17 @@
 
 .contacts__li {
   align-self: flex-start;
+  @media screen and (min-width: 768px) {
+    &:first-child {
+      margin-bottom: 10px;
+    }
+    @media screen and (min-width: 1200px) {
+      &:first-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
   @media screen and (min-width: 1200px) {
     align-self: center;
   }

@@ -167,6 +167,7 @@ p {
   position: absolute;
   right: 8px;
   top: 8px;
+  fill: #000;
   justify-content: center;
   cursor: pointer;
 }
@@ -401,7 +402,7 @@ p {
   width: 50px;
   height: 4px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .current::after {
     margin-top: 46px;
   }
@@ -417,7 +418,7 @@ p {
   width: 72px;
   height: 4px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .curent::after {
     margin-top: 46px;
   }
@@ -507,6 +508,16 @@ p {
 
 .contacts__li {
   align-self: flex-start;
+}
+@media screen and (min-width: 768px) {
+  .contacts__li:first-child {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (min-width: 1200px) {
+  .contacts__li:first-child {
+    margin-bottom: 0;
+  }
 }
 @media screen and (min-width: 1200px) {
   .contacts__li {
