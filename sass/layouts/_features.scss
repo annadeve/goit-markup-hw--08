@@ -27,14 +27,6 @@
 .features__li {
   margin-bottom: 30px;
   width: 100%;
-  @media screen and (min-width: 768px) {
-    width: 354px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 270px;
-  }
-
   &:first-child {
     margin-left: 0;
   }
@@ -93,5 +85,15 @@
     background-image: url(../images/astronaut.svg);
     background-position: center;
     background-repeat: no-repeat;
+  }
+  @media screen and (min-width: 768px) {
+    width: 354px;
+    & > h3 {
+      text-align: left;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 270px;
   }
 }

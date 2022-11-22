@@ -99,6 +99,9 @@
   text-decoration: none;
   font-style: normal;
   color: #757575;
+  @media screen and (min-width: 768px) {
+    @include font(16px, calc(30 / 16), 400, 0.03em);
+  }
 }
 
 .img-div-first {
