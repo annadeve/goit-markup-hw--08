@@ -160,26 +160,21 @@ p {
 
 .modal-close {
   display: block;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   width: 30px;
   height: 30px;
   background-color: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   position: absolute;
-  right: 15px;
-  top: 15px;
+  right: 8px;
+  top: 8px;
   fill: #000;
   cursor: pointer;
 }
 .modal-close:hover, .modal-close:focus {
   fill: var(--accent-color);
-}
-@media screen and (min-width: 480px) {
-  .modal-close {
-    right: 8px;
-    top: 8px;
-  }
 }
 
 .backdrop.is-hidden {
