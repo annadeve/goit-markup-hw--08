@@ -135,7 +135,7 @@ p {
   width: 100%;
   min-height: 581px;
   background-color: #fff;
-  position: relative;
+  position: absolute;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -558,8 +558,6 @@ p {
   background-color: #fff;
   display: block;
   margin-left: auto;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
 }
 
 .icon-menu {
