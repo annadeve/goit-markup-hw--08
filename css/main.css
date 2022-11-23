@@ -160,6 +160,7 @@ p {
 
 .modal-close {
   display: block;
+  margin: auto;
   width: 30px;
   height: 30px;
   background-color: transparent;
