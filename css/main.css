@@ -35,7 +35,7 @@ img {
   width: 100%;
 }
 
-.img-section, .icon-logo, .client-link:hover, .client-link:focus, .client-link, .clients-ul, .social-link, .team-section-ul, .img-ul, .features__ul, .check-text, .modal-close, .container {
+.img-section, .icon-logo, .client-link:hover, .client-link:focus, .client-link, .clients-ul, .social-link, .team-section-ul, .img-ul, .features__ul, .check-text, .container {
   display: flex;
   align-items: center;
 }
@@ -167,14 +167,19 @@ p {
   border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
   position: absolute;
-  right: 8px;
-  top: 8px;
+  right: 15px;
+  top: 15px;
   fill: #000;
-  justify-content: center;
   cursor: pointer;
 }
 .modal-close:hover, .modal-close:focus {
   fill: var(--accent-color);
+}
+@media screen and (min-width: 480px) {
+  .modal-close {
+    right: 8px;
+    top: 8px;
+  }
 }
 
 .backdrop.is-hidden {
