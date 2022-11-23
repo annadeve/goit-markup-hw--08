@@ -135,7 +135,7 @@ p {
   width: 100%;
   min-height: 581px;
   background-color: #fff;
-  position: absolute;
+  position: relative;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -160,8 +160,6 @@ p {
 
 .modal-close {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
   width: 30px;
   height: 30px;
   background-color: transparent;
@@ -170,6 +168,7 @@ p {
   position: absolute;
   right: 8px;
   top: 8px;
+  margin: 0;
   fill: #000;
   cursor: pointer;
 }
