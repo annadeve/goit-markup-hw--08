@@ -168,7 +168,9 @@ p {
   position: absolute;
   right: 8px;
   top: 8px;
-  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   fill: #000;
   cursor: pointer;
 }
